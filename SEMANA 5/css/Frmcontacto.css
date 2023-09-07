@@ -1,0 +1,84 @@
+body{
+    background-color: rgba(37, 35, 155, 0.781);
+}
+header{
+    background-color: rgb(90, 88, 230) !important;
+    border: 2px solid rgb(3, 3, 3);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+header img{
+    padding: 25px;
+}
+nav{
+    background-color: rgb(187, 142, 224);
+    border: 2px solid black;
+    border-radius: 22px;
+}
+nav p{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+section{
+    width: 40%;
+    border: 1px solid black;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin: 10px auto;
+    background:linear-gradient(rgb(142, 92, 223), rgb(230, 114, 220));
+}
+form{
+    background-color: rgba(238, 114, 141, 0.623);
+    width: 70%;
+    border-radius: 20px;
+    margin: 10px auto;
+    box-shadow: outset 0 0 10px purple;
+}
+fieldset{
+    border-style: none;
+}
+label{
+    font-size: 18px;
+}
+textarea{
+    resize: both;
+    max-height: 100px;
+}
+input:focus, textarea:focus{
+    border-color: rgb(132, 0, 255);
+    cursor:pointer;
+    box-shadow: inset 0 0 8px rgba(132, 0, 255, 0.6);
+    outline: 0 none;
+}
+form button{
+    width: 40%;
+    margin: 15px 0px 20px 25px;
+    height: 40px;
+    background: radial-gradient(rgb(186, 126, 226),rgb(106, 32, 175));
+    border: 2px solid black;
+    color: rgb(255, 248, 248);
+    border-radius: 15px;
+}
+form button:hover{
+    background: radial-gradient(lightblue, blue) ;
+    text-decoration: underline;
+    color: black;
+    cursor:pointer;
+}
+form input{
+    height: 20px;
+    box-sizing: border-box;
+    color: black;
+    outline: none;
+    border:1px solid black;
+}
+footer{
+    font-size: 16px;
+    text-align: center;
+    color: darkcyan
+}
