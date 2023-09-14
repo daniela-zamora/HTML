@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM TABLE</title>
+    <!-- Lnk para hoja de estilos CSS -->
+    <link rel="stylesheet" href="./CSS/table_form.css">
+</head>
+<body>
+    <h1>CONTACTENOS</h1>
+    <br>
+    <form action="">
+        <table>
+            <caption>DATOS BASICOS USUARIO</caption>
+            <tr><th>NOMBRE</th>
+                <td><input type="text" size="30" placeholder="Ingrese nombres" required></td>
+            </tr>
+            <tr><th>APELLIDOS</th>
+                <td><input type="text" size="40" placeholder="Ingrese apellidos" required></td>
+            </tr>
+            <tr><th>GENERO</th>
+                <td><input type="radio" value="F">FEMENINO <input type="radio" value="M">MASCULINO</td>
+            </tr>
+            <tr><th>NIVEL DE ESTUDIOS</th>
+                <td>
+                    <select>
+                        <option value="">PRIMARIA</option>
+                        <option value="">SECUNDARIA</option>
+                        <option value="">TECNICO</option>
+                        <option value="">TECNOLOGICO</option>
+                        <option value="">PROFESIONAL</option>
+                    </select>
+                </td>
+            </tr>
+            <tr><th>CONTRASEÑA</th>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <th><input type="submit" value="ENVIAR"></th>
+                <th><input type="reset" value="BORRAR"></th>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
