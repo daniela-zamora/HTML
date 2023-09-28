@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Mooli&family=Onest:wght@100&display=swap');
 body{
 	margin: 0;
 	padding: 0;
-	font-family: 'Mooli', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
+	background-image: url(../img/cool-background.png);
 }
 li{
 	list-style: none;
@@ -73,13 +74,13 @@ ul.nav{
 	font-weight: bold;
 }
 .navbar-default .navbar-nav>li>a:hover{
-	color: #ffe031b9;
+	color: #ff3131b9;
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #000;
 }
 li a.active{
-	color: #ff6600 !important;
+	color: #ff0000 !important;
 }
 .navbar-default .navbar-toggle {
   border-color: #fff;
@@ -114,7 +115,7 @@ li a.active{
 .carousel-caption button{
 	width: 240px;
 	height: 60px;
-	background: #eeff01;
+	background: #ff0101;
 	color: #fff;
 	font-size: 30px;
 	text-transform: uppercase;
@@ -132,10 +133,10 @@ li a.active{
 	width: 5%;
 }
 .carousel-inner{
-	background: -webkit-linear-gradient(left, hsl(29, 100%, 50%) , rgb(251, 255, 0)); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(left, hsl(29, 100%, 50%) , rgb(251, 255, 0)); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(left, hsl(29, 100%, 50%) , rgb(251, 255, 0)); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to left, hsl(29, 100%, 50%) , rgb(251, 255, 0)); /* Standard syntax */
+	background: -webkit-linear-gradient(left, hsl(29, 100%, 50%) , rgb(255, 0, 0)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(left, hsl(29, 100%, 50%) , rgb(255, 0, 0)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(left, hsl(29, 100%, 50%) , rgb(255, 0, 0)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to left, hsl(29, 100%, 50%) , rgb(255, 0, 0)); /* Standard syntax */
 }
 .item{
 	position: relative;
@@ -174,27 +175,27 @@ li a.active{
 
 /*about area*/
 .about h1{
-	font-size: 80px;
-	color: #ff6600;
+	font-size: 70px;
+	color: #ff0000;
 	margin-top: 50px;
 }
 
 .about p{
-	font-size: 14px;
+	font-size: 20px;
 	color: #000;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	padding: 0 25px;
 	padding-bottom: 30px;
 }
 
 .about h2{
-	font-size: 90px;
-	color: #ff6600;
+	font-size: 80px;
+	color: #ff0000;
 	margin-top: 180px;
 }
 .about h4{
 	font-size: 24px;
-	color: #737373;
+	color: #000000;
 	margin-bottom: 45px;
 }
 .about-img img{
@@ -248,7 +249,7 @@ li a.active{
   border-top: 15px solid #fff;
 }
 .about-details{
-	background: #2a2a2a;
+	background: #ff0000;
 	border-top: 2px solid #fff;
 	transition: all .7s ease 0s;
 	-webkit-transition: all .7s ease 0s;
@@ -262,14 +263,14 @@ li a.active{
 	margin-top: 0;
 }
 .about-details p{
-	font-size: 13px;
-	color: #fff;
+	font-size: 18px;
+	color: #050505;
 	font-family: 'Open Sans', sans-serif;
 	padding: 0 25px;
-	padding-bottom: 30px;
+	padding-bottom: 25px;
 }
 .single-about-detail:hover .about-details{
-	background: #3a9dca;
+	background: #ca3a3ab9;
 }
 .single-about-detail:hover .pentagon-text h1{
 	color: #3a9dca;
@@ -277,8 +278,9 @@ li a.active{
 
 
 .service{
-	background: url(../img/pattern.jpg);
+	background: red;
 	background-repeat: repeat-y;
+
 	margin-top: 40px;
 }
 .service h2{
@@ -306,7 +308,7 @@ li a.active{
 .service-img {
   width: 205px;
   height: 125px;
-  background: #3a9ecb;
+  background: #ff0000;
   position: relative;
 }
 .single-service h3{
@@ -322,14 +324,14 @@ li a.active{
 
 
 .sec_video{
-	background: #fff;
+	background: #ff00003b;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
 
 /*contact section*/
 .contact-caption{
-	background: #ff6600;
+	background: #ff0000;
 }
 .contact-heading h2{
 	color: #fff;
@@ -340,11 +342,11 @@ li a.active{
 }
 .contact-info h3{
 	padding-left: 0;
-	font-size: 30px;
+	font-size: 50px;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: bold;
-	border-bottom: 1px solid #13849c;
+	border-bottom: 1px solid #9c1313;
 	padding-bottom: 12px;
 	margin-bottom: 0;
 }
@@ -354,7 +356,7 @@ li a.active{
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: bold;
-	border-bottom: 1px solid #13849c;
+	border-bottom: 1px solid #9c1313;
 	padding-bottom: 12px;
 	margin-bottom: 0;
 }
@@ -457,13 +459,13 @@ li a.active{
 	padding: 25px 0;
 
 }
-.footer a i.fa{
+.footer a i.fa, i.fa-brands{
 	font-size: 24px;
-	color: #b1b1b1;
+	color: #838383;
 	padding: 22px 10px;
 }
-.footer a i.fa:hover{
-	color: #42b3e5;
+.footer a i.fa:hover, i.fa-brands:hover{
+	color: #ff0000;
 }
 
 .carousel-inner{
