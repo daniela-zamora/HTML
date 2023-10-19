@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO SESION</title>
+    <!-- link de sitio Sweetalert mensajes más elegantes-->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <center>
+        <img src="./img/LOGO INCAP.jpeg" alt="" width="150" height="150">
+        <h1>CICLO FOR - IF</h1>
+        <h2>Validacion ingreso sesion usuario</h2>
+        <br>
+        <script>
+            //variables de entrada
+            var pasw2; //password ingresado por usuario
+            var sw=0; //var tipo switche cotrola ingreso usiario -apagada-
+            var clave=123; //contiene la contraseña correcta
+            //proceso 
+            for (f=1;f<=3;f++){
+                pasw2=parseInt(prompt("Ingrese contraseña"));
+                if (pasw2==clave){
+                    swal("Apreciado usuario","ACCESO OTORGADO","success");
+                    sw=1; //cambia a prendido
+                    break;
+                }
+            }
+            //salida pantalla
+            if (sw==0){
+                swal("Apreciado usuario","ACCESO BLOQUEADO","error");
+                document.write("<font color='red' size=14>BLOCKED ACCESS</font>");
+            }else{
+                document.write("<font color='blue' size=14> GRANTED ACCESS</font>")
+            }
+        </script>
+    </center>
+</body>
+</html>
